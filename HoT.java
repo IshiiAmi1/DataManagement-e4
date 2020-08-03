@@ -34,5 +34,11 @@ class HoT{
 			}
 		}
 		System.out.println("Heads: "+headcount+", Tails: "+tailcount);
+
+		if(headcount>tailcount){
+			System.out.println("You won");
+		}else{
+			System.out.println("You lost");
+		}
 	}
 }
