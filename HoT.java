@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 class HoT{	
 	public static void main(String[] args){
@@ -11,6 +12,11 @@ class HoT{
 		String hot;
 
 		Random rand=new Random();
+
+		System.out.println("Who are you?");
+		Scanner scan = new Scanner(System.in);
+		String name = scan.next();
+		System.out.println("Hello, "+name+"!");
 
 		for(int i=0;i<5;i++){
 			num=1+rand.nextInt(2);
